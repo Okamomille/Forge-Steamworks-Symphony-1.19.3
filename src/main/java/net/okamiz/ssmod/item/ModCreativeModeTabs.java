@@ -1,4 +1,4 @@
-package net.okamiz.steamworkssymphonymod.item;
+package net.okamiz.ssmod.item;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.okamiz.steamworkssymphonymod.SteamworksSymphonyMod;
+import net.okamiz.ssmod.SteamworksSymphonyMod;
 
 @Mod.EventBusSubscriber(modid = SteamworksSymphonyMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {

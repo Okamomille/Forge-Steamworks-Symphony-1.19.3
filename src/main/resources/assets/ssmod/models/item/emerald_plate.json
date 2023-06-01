@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "steamworkssymphonymod:item/iron_plate"
+    "layer0": "ssmod:item/emerald_plate"
   }
 }
