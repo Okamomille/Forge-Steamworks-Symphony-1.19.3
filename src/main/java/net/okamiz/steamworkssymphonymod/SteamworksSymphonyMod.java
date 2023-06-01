@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.okamiz.steamworkssymphonymod.item.ModCreativeModeTabs;
 import net.okamiz.steamworkssymphonymod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -42,10 +43,16 @@ public class SteamworksSymphonyMod
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-        if(event.getTab() == CreativeModeTabs.INGREDIENTS){
+        // if(event.getTab() == CreativeModeTabs.INGREDIENTS){
+        //    event.accept(ModItems.WOODEN_PLATE);
+        //    event.accept(ModItems.IRON_PLATE);
+        //}
+
+        if(event.getTab() == ModCreativeModeTabs.STEAMWORKS_SYMPHONY_TAB){
             event.accept(ModItems.WOODEN_PLATE);
             event.accept(ModItems.IRON_PLATE);
         }
+
     }
 
 

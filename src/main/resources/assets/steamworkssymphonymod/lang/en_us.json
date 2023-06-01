@@ -1,4 +1,6 @@
 {
   "item.steamworkssymphonymod.wooden_plate": "Wooden Plate",
-  "item.steamworkssymphonymod.iron_plate": "Iron Plate"
+  "item.steamworkssymphonymod.iron_plate": "Iron Plate",
+
+  "creativemodetab.steamworks_symphony_tab": "Steamworks Symphony"
 }
